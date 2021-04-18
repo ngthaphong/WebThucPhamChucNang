@@ -1,0 +1,59 @@
+﻿@using WebApplication3.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<WebApplication3.Models.NHASANXUAT>
+
+@{
+    ViewBag.Title = "NSX";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+
+<p class="lead" style="text-decoration:underline ;padding-top:50px; margin-top:100px">QUẢN LÝ NHÀ SẢN XUẤT</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:100px"> MÃ NSX </th>
+        <th style="width:300px">  TÊN NSX  </th>
+        <th style="width:200px"> ĐỊA CHỈ </th>
+        <th style="width:200px">  ĐIỆN THOẠI  </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNSX)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNSX)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaNSX }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaNSX }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaNSX })
+            </td>
+        </tr>
+    }
+
+</table>
+@* Tao liên kết các trang  *@
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount;
+    <div class="MenuTrang">
+
+        @Html.PagedListPager(Model, page => Url.Action("SanPham", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>

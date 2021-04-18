@@ -1,0 +1,205 @@
+﻿
+
+@using WebApplication3.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<SANPHAM>
+
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<style>
+    #lht1:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        margin: 3%;
+    }
+</style>
+<div class="row">
+
+    <h2 style="Text-align:Center">SẢN PHẨM MỚI</h2>
+    <p style="padding-top:20px; margin-bottom:20px; border-bottom: 2px solid black ;width:96%;margin-left:2% "></p>
+
+
+
+    @foreach (var sanpham in Model)
+    {
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail" id="lht1" style="margin-bottom:10px">
+                <li>
+                    <a href="@Url.Action("Details","LHTStore", new {meta = sanpham.Meta, id = sanpham.MaSP})">
+                        <img alt="@sanpham.TenSanPham" src="~/images/@sanpham.Anhbia" width="200" />
+
+                        <div>
+                            <br />
+                            <h4 style="text-align:center">
+                                @sanpham.TenSanPham
+                            </h4>
+                            <p></p>
+                        </div>
+                        <div class="ratings">
+                            <p class="pull-right">15 reviews</p>
+                            <p>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </div>
+    }
+
+
+
+
+
+
+
+</div>
+
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, Page => Url.Action("Index", new { Page = Page }))
+</div>
+
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>
+
+
+<div class="fb-like" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="" data-width="600" data-numposts="5"></div>
+<div id="fb-root"></div>
+<div class="fb-customerchat"
+     page_id="626999290995882">
+</div>
+
+
+
+
+
+<script>$(document).ready(function () { var raido = $(".wrap").attr("data-toggle"); if (raido == 1) { $(".vnk-tuvan").css("display", "none"); $(".x").click(function () { $(".wrap").slideToggle(); $(".vnk-tuvan").slideToggle(); }); $(".vnk-tuvan").click(function () { $(".wrap").slideToggle(); $(this).slideToggle(); }); } else { $(".wrap").css("display", "none"); $(".x").click(function () { $(".wrap").slideToggle(); $(".vnk-tuvan").slideToggle(); }); $(".vnk-tuvan").click(function () { $(".wrap").slideToggle(); $(this).slideToggle(); }); } })(function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&&appId=126586364523772"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "facebook-jssdk"));</script>
+<style>
+    .wrap {
+        position: fixed;
+        width: 300px;
+        height: 400px;
+        z-index: 9999999;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .x {
+        font-family: arial, helvetica;
+        background: rgba(78,86,101,0.8) none repeat scroll 0 0;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        height: 25px;
+        line-height: 25px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: -19px;
+        width: 25px;
+        z-index: 99999999;
+    }
+
+        .x:hover {
+            cursor: pointer;
+        }
+
+    .pxem {
+        text-align: left;
+        height: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+        background: #34495E;
+        width: 100%;
+        bottom: 0;
+        display: block;
+        left: 0px;
+        position: absolute;
+        z-index: 999999999;
+        border-left: 1px solid #fff;
+    }
+
+        .pxem a.axem {
+            color: #fff;
+            font-family: arial,helvetica;
+            font-size: 12px;
+            line-height: 23px;
+            padding-left: 5px;
+            text-decoration: none;
+        }
+
+            .pxem a.axem:hover {
+                text-decoration: underline;
+            }
+
+    .alogo {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        z-index: 999999999999;
+        width: 75px;
+        height: 20px;
+        display: inline-block;
+        background: #34495E;
+        border-left: 2px solid #2c3e50;
+        padding-right: 0px;
+        padding-left: 5px
+    }
+
+    .vnk-tuvan {
+        position: fixed;
+        width: 300px;
+        background: #34495E;
+        z-index: 99999999;
+        right: 0px;
+        bottom: 0px;
+        border-style: solid solid none;
+        border-width: 1px 1px 0;
+        border-color: #2c3e50
+    }
+
+        .vnk-tuvan p {
+            color: #fff;
+            font-size: 15px;
+            margin: 0;
+            padding: 0 13px;
+            text-align: left;
+        }
+
+            .vnk-tuvan p a {
+                color: #fff;
+                font-size: 15px;
+                padding: 5px 0px 7px;
+                margin: 0;
+                display: inline-block;
+                font-family: arial, helvetica;
+                text-decoration: none;
+            }
+
+                .vnk-tuvan p a:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+
+            .vnk-tuvan p img {
+                float: right;
+                margin-top: 10px;
+            }
+</style>
+
+

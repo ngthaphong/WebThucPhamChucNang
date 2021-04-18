@@ -1,0 +1,81 @@
+﻿@using System.Linq;
+
+
+<style type="text/css">
+    #Datmua a{
+        clear:both;  background-color:#d04646; line-height:15px;
+        color:white;    width:190px;    height:35px;
+        display:block;  float:right;    text-align:center;
+        padding-top:10px;   text-decoration:none;   font-weight:bold;
+    }
+    #Datmua a:hover {
+        background-color :gray;
+        color:red;
+    }
+</style>
+<script>
+function scrollWin() {
+    window.scrollTo(0, 800);
+}
+</script>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+    <body onload="scrollWin()">
+    <h3 style="Text-align:Center">THÔNG TIN CHI TIẾT</h3>
+    <p style="padding-top:20px; margin-bottom:20px; border-bottom: 2px solid black ;width:96%;margin-left:2% "></p>
+
+
+    <div style="width:40%; float:left; border-left: dotted 1px; border-color:azure">
+        <img class="w3-image  " src="~/images/@Model.Anhbia" width="=100%" />
+
+    </div>
+    <div style="width:60%; float:left; padding:10px">
+
+        <h4 class="w3-hide-small   w3-hide-medium  w3-xxlarge ">@Model.TenSanPham</h4>
+        <h4 class="w3-hide-small  w3-hide-large  w3-xxlarge">@Model.TenSanPham</h4>
+        <h4 class="w3-hide-large w3-hide-medium  w3-xlarge ">@Model.TenSanPham</h4>
+
+
+        <p><span style="font-size:24px;text-decoration:underline">@String.Format("{0:0,0}", Model.Giaban) VNĐ</span></p>
+        <p><b>Tình Trạng:  </b>còn hàng</p>
+        <div autofocus id="Datmua">
+            <a href="@Url.Action("ThemGiohang","GioHang", new { @iMaSP= @Model.MaSP , @strURL=Request.Url.ToString() })" class="list-group-item">THÊM VÀO GIỎ HÀNG</a>
+        </div>
+
+        <!--a href="@Model.ThanhToanTrucTuyen"><img src="https://www.baokim.vn/cdn/x_developer/module/baokim_btn/thanhtoan-m.png" alt="Thanh toán an toàn với Bảo Kim !" border="0" title="Thanh toán trực tuyến an toàn dùng tài khoản Ngân hàng (VietcomBank, TechcomBank, Đông Á, VietinBank, Quân Đội, VIB, SHB,... và thẻ Quốc tế (Visa, Master Card...) qua Cổng thanh toán trực tuyến BảoKim.vn"></!--a-->
+
+
+
+
+    </div>
+
+    <p style="text-align:justify;   padding: 8px"><b>Mô tả: </b>@Model.Mota</p>
+    <hr />
+
+    <div style="width:100%; float:left; border-left: dotted 1px; border-color:azure;  border: 1px solid  gray; padding: 8px">
+
+        <h3 style="margin-left:5% ;text-decoration:underline ">THÀNH PHẦN SẢN PHẨM</h3>
+        <div style="width:80%; float:left; border-left: dotted 1px; border-color:azure; padding-left:20%">
+            <img class="w3-image  " src="~/images/@Model.Anhbia2" width="=100%" />
+        </div>
+    </div>
+
+    <div style="width:100%; float:left; border-left: dotted 1px; border-color:azure;  border: 1px solid  gray; padding: 8px ; margin-top:5px">
+
+        <h3 style="margin-left:5% ;text-decoration:underline ">HƯỚNG DẪN SỬ DỤNG</h3>
+        <p>Đối với người lớn, cho 1 muỗng vào 400-500ml nước lạnh, lắc đều shaker cho đến khi bột tan hoàn toàn (bạn có thể thay đổi lượng nước, điều này sẽ làm thay đổi 1 chút vị của sản phẩm) và uống ngay cho có kết quả tốt nhất. Bạn có thể uống trước và sau tập hoặc bất kì thời điểm nào trong ngày cần bổ sung protein, một ngày sử dụng 2-4 lần. Nếu bạn tập nặng hoặc vận động nhiều thì có thể uống 1 lần 2 muỗng, ngày 3 lần. Ngày không tập thể hình vẫn sử dụng để phục hồi cơ bắp những buổi tập trước đó.</p>
+        <hr />
+        <p><b>Cảnh báo:</b> Nếu bạn đang dùng bất cứ loại thuốc nào hoặc có bất kỳ dấu hiệu bệnh lý , tham khảo ý kiến bác sĩ trước khi sử dụng. Ngừng sử dụng và tham khảo ý kiến bác sĩ của bạn nếu có phản ứng bất lợi xảy ra. Không dành cho người dùng ở độ tuổi dưới 18. Giữ xa tầm với của trẻ em. Lưu trữ ở nhiệt độ phòng và tránh nhiệt quá mức. Không sử dụng nếu lớp bảo dưới nắp bị thủng hoặc mất.</p>
+        <hr />
+        <p><b>Chú ý:</b> Sản phẩm này là thực phẩm bổ sung, không phải thuốc chữa bệnh, không dùng để thế thuốc chữa bệnh. Sản phẩm này được đăng ký tại Cục Vệ sinh an toàn thực phẩm trực thuộc Bộ Y tế và đã được kiểm tra tại Chi cục hải quan Thành Phố Hồ Chí Minh cũng như xét nghiệm các chỉ tiêu sức khỏe tại Các công ty giám định chất lượng được cho phép của Bộ Y Tế Việt Nam. Sản phẩm phân phối ra thị trường đảm bảo có tem chống Hàng giả của Bộ công an và nhãn phụ sản phẩm của công ty BBT</p>
+        <hr />
+        <p><b>BBT</b> là công ty phân phối độc quyền nhãn hàng này trên phạm vi toàn quốc. Nhằm bảo đảm không mua phải hàng gian, hàng giả vui lòng kiểm tra tem Chống hàng giả của Bộ Công an, nhãn phụ sản phẩm của công ty BBT và thẻ cào nhắn tin xác nhận sản phẩm (3 tem tất cả). Nếu có bất kỳ dấu hiệu nghi ngờ bạn hãy gọi điện thoại về tổng đài 19002050 để được tư vấn (giờ hành chính). Hãy đăng kí thành viên và chọn chức năng mua hàng trực tuyến để được chúng tôi chăm sóc tốt hơn cũng như hưởng nhiều ưu đãi hơn.</p>
+    </div>
+
+
+</body>
+

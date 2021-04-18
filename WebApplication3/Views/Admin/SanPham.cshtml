@@ -1,0 +1,98 @@
+﻿@using WebApplication3.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<WebApplication3.Models.SANPHAM>
+
+@helper Truncate(string input, int length)
+    {
+        /**/
+
+        if (input.Length < length)
+        {
+            @input
+        }
+        else
+        {
+            @input.Substring(0, length)<text>...</text>
+        }
+}
+
+
+@{
+    /**/
+
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+
+<p class="lead" style="text-decoration:underline ;padding-top:50px; margin-top:100px">QUẢN LÝ SẢN PHẨM</p>
+
+
+<p>
+    @Html.ActionLink("THÊM MỚI", "ThemmoiSanpham")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:200px">  Tên sản phẩm </th>
+        <th style="width:100px">  Giá bán  </th>
+        <th style="width:300px">  Mô tả    </th>
+        <th style="width:120px">  Ảnh bìa  </th>
+        <th style="width:150px">  Ngày cập nhật </th>
+        <th style="width:120px">  SL.Tồn </th>
+        <th style="width:120px">  Tên Loại   </th>
+        <th style="width:100px">  Tên NSX   </th>
+        <th style="width:100px">  Ảnh bìa 2   </th>
+        <th style="width:200px">  </th>
+    </tr>
+
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSanPham)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Truncate(item.Mota, 100)
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/"+  item.Anhbia)" width="120px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LOAI.TenLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NHASANXUAT.TenNSX)
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/"+  item.Anhbia2)" width="120px" />
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Suasanpham", new { id = item.MaSP }) |
+                @Html.ActionLink("Chi tiết", "Chitietsanpham", new { id = item.MaSP }) |
+                @Html.ActionLink("Xóa", "Xoasanpham", new { id = item.MaSP })
+            </td>
+        </tr>
+    }
+
+</table>
+@* Tao liên kết các trang  *@
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount;
+    <div class="MenuTrang">
+
+        @Html.PagedListPager(Model, page => Url.Action("SanPham", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>

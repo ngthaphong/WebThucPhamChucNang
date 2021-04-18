@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<style>
+    input {
+        padding-left: 10px;
+        width: 350px;
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        font-family: 'Palatino Linotype';
+        font-size: 16px;
+    }
+
+        input:focus {
+            font-size: 18px;
+        }
+</style>
+
+
+<div id="id01" class="w3-modal" style="display:block;z-index:30">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:70%;margin-left:15%">
+        <span class="w3-display-topleft w3-hide-small" style="font-size: 50px;margin-left:10px">☼</span>
+        <span class="w3-display-topmiddle" style="font-family:'Palatino Linotype'; font-size:30px">Registration</span>
+
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-hide-small w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+        <br />
+        <div style="height:70px"></div>
+
+
+
+        <table align="center" style="width:80%;margin-left:10%">
+          
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <tr style="height:40px">
+                  <td  class="w3-hide-small" style="font-family: 'Palatino Linotype' ; width:25%"><b>Full name: </b></td>
+                    <td>
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Full name: </b></span>
+                      
+                        <input type="text" name="HotenKH" style="width:70%">
+                       <span style="font-family: 'Palatino Linotype';color:#b22626;padding-left:1%">@ViewData["Loi1"]</span> 
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Username :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Username :</b></span>
+                        <input type="text" name="TenDN" style="width:70%">
+
+
+                     
+                        <span style=" font-family: 'Palatino Linotype';color:#b22626;padding-left:1%">@ViewData["Loi2"]</span> 
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Password :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Password :</b></span>
+
+                        <input type="password" name="Matkhau" style="width:70%">
+
+                     
+                        <span style=" font-family: 'Palatino Linotype';color:#b22626;padding-left:1%">@ViewData["Loi3"]</span> 
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small"  name="Matkhaunhaplai" style=" font-family: 'Palatino Linotype'"><b>Confirm your password :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Confirm your password :</b></span>
+
+                        <input type="password" name="Matkhaunhaplai" style="width:70%">
+
+                     
+                        <span style="font-family: 'Palatino Linotype';color:#b22626;padding-left:1%">@ViewData["Loi4"]</span> 
+                    </td>
+                </tr>
+
+
+                <tr style="height:40px">
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Email :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Your Email :</b></span>
+
+                        <input type="text" name="Email" style="width:70%">
+
+                     
+                        <span style=" font-family: 'Palatino Linotype';color:#b22626;padding-left:1%">@ViewData["Loi5"]</span> 
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Address :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Address :</b></span>
+
+                        <input type="text" name="Diachi" style="width:70%">
+                       
+                    </td>
+                </tr>
+                <tr style="height:40px" >
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Number of phone :</b></td>
+                    <td>
+
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Number of phone :</b></span>
+
+                        <input type="text" name="Dienthoai" style="width:70%">
+
+                      
+                        <span style="font-family: 'Palatino Linotype';color:#b22626;padding-left:1% ">@ViewData["Loi6"]</span> 
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small" style=" font-family: 'Palatino Linotype'"><b>Birthday :</b></td>
+                    <span>
+                        <td>
+                        <span class="w3-hide-large w3-hide-medium "style=" font-family: 'Palatino Linotype'"><b>Birthday :</b></span>
+                        <input type="date" name="Ngaysinh" style="width:70%">
+                        <span style=" font-family 'Palatino Linotype' ;color:#b22626;padding-left:1%">@ViewData["Loi7"]</span>
+                    </td>
+                </tr>
+                <tr style="height:40px">
+                    <td class="w3-hide-small"></td>
+                    <td>
+
+                        <input type="Submit" value="Registration" class="w3-button w3-block w3-green w3-section w3-padding" style="width:70%" />
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<h3 style="Text-align:Center" onfocus="">ĐỊA CHỈ</h3>
+<p style="padding-top:20px; margin-bottom:20px; border-bottom: 2px solid black ;width:96%;margin-left:2% "></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d741.0877588692206!2d106.71495709782137!3d10.809613866934308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3830dea3e120ec8e!2sHUTECH+University+of+Technology!5e0!3m2!1sen!2s!4v1523033521319" width="100%" height="400px" frameborder="0" style=" box-shadow 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);" allowfullscreen></iframe>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>

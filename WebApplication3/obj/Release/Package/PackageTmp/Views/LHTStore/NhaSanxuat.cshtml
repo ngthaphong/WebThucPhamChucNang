@@ -1,0 +1,21 @@
+﻿
+<style>
+  
+        #phong a:hover {
+          font-size:16px;
+        }
+</style>
+
+
+
+@model IEnumerable<WebApplication3.Models.NHASANXUAT>
+<p class="lead" style="text-decoration:underline">NHÀ SẢN XUẤT</p>
+<div class="list-group" id="phong" >
+    @foreach (var item in Model)
+    {
+        <a   href="@Url.Action("SPTheoNSX","LHTStore",new {meta=item.Meta, id=item.MaNSX})" class="list-group-item" style="background-color:#000000;color:#ffffff;opacity: 0.7">
+            @item.TenNSX
+        </a>
+    }
+</div>
+

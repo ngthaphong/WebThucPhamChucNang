@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://nthphong.somee.com/www.nthphong.somee.com/</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1wS39H/YWkeZbdz8FLoQ1gAAAAACAAAAAAAQZgAAAAEAACAAAADjMQzMtnjc/CtpwGTb4HXgscX0sI3hpx8idEWhJKFTMgAAAAAOgAAAAAIAACAAAAAksiiY9WxvVtboB92FFmsI9c/ZkGFwm0qCFPg7Ul+WciAAAAB8XGN5DRD+r5Z4RoeSK35wqP3KAIH/s4YI9gITVMaKn0AAAADlBEuHGIqzdAFqBycu9XV+bPOwp5ZEvig8Vfi9zsQrML33N7Wl0sC1gI6282IufuQFVqeoNQjxDD9yjjNAnjdR</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>04/23/2018 13:06:31</publishTime>
+    </File>
+    <File Include="baokim_03da8a22f33a5169.html">
+      <publishTime>04/27/2018 18:38:00</publishTime>
+    </File>
+    <File Include="baokim_1baaec90226f345b.html">
+      <publishTime>05/02/2018 02:11:39</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/23/2018 13:05:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>04/23/2018 13:05:39</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>04/23/2018 13:06:31</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Facebook.dll">
+      <publishTime>04/13/2015 15:48:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>04/23/2018 13:05:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>04/23/2018 13:05:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>04/23/2018 13:05:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>04/23/2018 13:06:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>04/23/2018 13:05:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>04/23/2018 13:05:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>04/23/2018 13:05:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/23/2018 13:06:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/23/2018 13:06:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/23/2018 13:06:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/23/2018 13:06:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>04/23/2018 13:06:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>04/23/2018 13:06:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>04/23/2018 13:06:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>04/23/2018 13:06:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>04/23/2018 13:06:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>04/23/2018 13:06:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>04/23/2018 13:06:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>04/23/2018 13:06:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>04/23/2018 13:06:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2018 13:06:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/22/2015 11:06:54</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>04/23/2018 13:06:27</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>04/23/2018 13:06:28</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>04/23/2018 13:06:29</publishTime>
+    </File>
+    <File Include="bin/PayPal.dll">
+      <publishTime>10/23/2017 16:17:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/23/2018 13:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/23/2018 13:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/23/2018 13:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/23/2018 13:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/23/2018 13:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/23/2018 13:06:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/23/2018 13:06:15</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/23/2018 13:06:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/23/2018 13:06:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/23/2018 13:06:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/23/2018 13:06:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/23/2018 13:06:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/23/2018 13:06:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/23/2018 13:06:07</publishTime>
+    </File>
+    <File Include="bin/WebApplication3.dll">
+      <publishTime>11/09/2020 06:21:01</publishTime>
+    </File>
+    <File Include="bin/WebApplication3.pdb">
+      <publishTime>11/09/2020 06:21:01</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/23/2018 13:06:31</publishTime>
+    </File>
+    <File Include="Content/assets/bootstrap-social.css">
+      <publishTime>04/26/2018 11:21:43</publishTime>
+    </File>
+    <File Include="Content/assets/LHTStoreController.js">
+      <publishTime>04/29/2018 02:43:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/02/2020 09:28:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/23/2018 13:06:57</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>04/23/2018 13:06:57</publishTime>
+    </File>
+    <File Include="Content/shop-homepage.css">
+      <publishTime>04/23/2018 13:06:57</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/23/2018 13:06:57</publishTime>
+    </File>
+    <File Include="Content/StyleSheet1.css">
+      <publishTime>04/26/2018 14:28:20</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/23/2018 13:07:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/23/2018 13:07:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/23/2018 13:07:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/23/2018 13:07:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/23/2018 13:07:02</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/active-man---salesheet-_2_.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/activemen_02.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/alphaamino_02.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/alpha_amino_cellucor_-_salesheet_1.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/amino320v.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/amino_02.jpg">
+      <publishTime>04/23/2018 13:07:03</publishTime>
+    </File>
+    <File Include="images/binhnuoc.PNG">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/binhnuoc1.PNG">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/binhnuoc2.PNG">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/binhnuoc3.PNG">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/c4-mass---salesheet.1.jpg">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/c4mass_2.jpg">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/casein-labrada---salesheet.jpg">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/casein_02.jpg">
+      <publishTime>04/23/2018 13:07:04</publishTime>
+    </File>
+    <File Include="images/cellucorcorwhey_02.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/cor-bcaa-sale.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/cor-performance_02.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/cor-whey-fact.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/cors.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/corwhey188kg_02.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/cor_bcaa_02_1.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/creatine_drive.jpg">
+      <publishTime>04/23/2018 13:07:05</publishTime>
+    </File>
+    <File Include="images/creatine_drive_2.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/elite-casein.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/elitecasein_02_2.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/elitewhey45.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/elitewhey45kg_02.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/glutamine.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/glutamine_drive_1.jpg">
+      <publishTime>04/23/2018 13:07:06</publishTime>
+    </File>
+    <File Include="images/isolate---salesheet-.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/isolate2.3kg_02_1.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/isolate2.7kg_02.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/isolate_02.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/leanbody.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/leanbody_002.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/leanpro-8---salesheet.jpg">
+      <publishTime>04/23/2018 13:07:07</publishTime>
+    </File>
+    <File Include="images/leanpro8_2.jpg">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/lipo6-sale.jpg">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/lipo6black_02.jpg">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/lipo6_2.jpg">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/lipostimfree.jpg">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/mas-effect-sale-1_1.png">
+      <publishTime>04/23/2018 13:07:08</publishTime>
+    </File>
+    <File Include="images/mass-effec.jpg">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/masseffect3kg_02_1.jpg">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/masseffect_02.jpg">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/massinfusion_02.png">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/muscleinfusion_02.png">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/musclemass.jpg">
+      <publishTime>04/23/2018 13:07:09</publishTime>
+    </File>
+    <File Include="images/musclemass_02_1.jpg">
+      <publishTime>04/23/2018 13:07:10</publishTime>
+    </File>
+    <File Include="images/outlift_2.jpg">
+      <publishTime>04/23/2018 13:07:10</publishTime>
+    </File>
+    <File Include="images/outlift_3.jpg">
+      <publishTime>04/23/2018 13:07:10</publishTime>
+    </File>
+    <File Include="images/pursuit-sale.jpg">
+      <publishTime>04/23/2018 13:07:10</publishTime>
+    </File>
+    <File Include="images/pursuit_02.jpg">
+      <publishTime>04/23/2018 13:07:10</publishTime>
+    </File>
+    <File Include="images/q1q1.png">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/salesheet_iso100_1.jpg">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/san-isolate-salesheet.png">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/shacker-blue-_m_.1.jpg">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/shopping_cart_clip_art_16696.jpg">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/size-up-sale.jpg">
+      <publishTime>04/23/2018 13:07:11</publishTime>
+    </File>
+    <File Include="images/super-charge---salesheet.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/super-joint-sale.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/supercharge_02.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/superjointguard_02.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/supermass_02_1.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/supermass_03.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/supfact_mass.jpg">
+      <publishTime>04/23/2018 13:07:12</publishTime>
+    </File>
+    <File Include="images/supfact_muscle.jpg">
+      <publishTime>04/23/2018 13:07:13</publishTime>
+    </File>
+    <File Include="images/wheyCorHuongViTuyetVoi_1.jpg">
+      <publishTime>04/23/2018 13:07:13</publishTime>
+    </File>
+    <File Include="images/wheyisolate_02.jpg">
+      <publishTime>04/23/2018 13:07:13</publishTime>
+    </File>
+    <File Include="images/z1.png">
+      <publishTime>04/28/2018 08:53:45</publishTime>
+    </File>
+    <File Include="images/z2.png">
+      <publishTime>04/28/2018 08:53:52</publishTime>
+    </File>
+    <File Include="images/z3.png">
+      <publishTime>04/28/2018 08:53:39</publishTime>
+    </File>
+    <File Include="images/zzzz.png">
+      <publishTime>04/23/2018 13:07:16</publishTime>
+    </File>
+    <File Include="images/zzzz2.png">
+      <publishTime>04/23/2018 13:07:16</publishTime>
+    </File>
+    <File Include="images/zzzz3.png">
+      <publishTime>04/23/2018 13:07:17</publishTime>
+    </File>
+    <File Include="images2/2.mp4">
+      <publishTime>06/02/2020 11:03:16</publishTime>
+    </File>
+    <File Include="images2/3.mp4">
+      <publishTime>06/02/2020 21:42:36</publishTime>
+    </File>
+    <File Include="images2/icons8-christmas-gift-50.png">
+      <publishTime>04/23/2018 13:07:21</publishTime>
+    </File>
+    <File Include="images2/q1q1.png">
+      <publishTime>04/23/2018 13:07:21</publishTime>
+    </File>
+    <File Include="images2/unnamed.jpg">
+      <publishTime>04/23/2018 13:07:21</publishTime>
+    </File>
+    <File Include="images2/video-1521263916.mp4">
+      <publishTime>06/02/2020 08:59:56</publishTime>
+    </File>
+    <File Include="Models/dbQLSanPham.dbml">
+      <publishTime>05/17/2020 20:51:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/07/2020 20:36:35</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>04/23/2018 13:07:28</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>04/23/2018 13:07:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/23/2018 13:07:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/23/2018 13:07:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/23/2018 13:07:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/23/2018 13:07:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/23/2018 13:07:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>04/23/2018 13:07:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/23/2018 13:07:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/23/2018 13:07:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>04/23/2018 13:07:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/23/2018 13:07:31</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/23/2018 13:07:31</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>04/23/2018 13:07:32</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>04/23/2018 13:07:32</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>04/23/2018 13:07:32</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>05/23/2020 15:57:12</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>04/23/2018 13:07:52</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>04/23/2018 13:07:52</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>04/23/2018 13:07:52</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>04/23/2018 13:07:52</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>04/23/2018 13:07:53</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>04/23/2018 13:07:54</publishTime>
+    </File>
+    <File Include="Views/Admin/baokim_03da8a22f33a5169.html">
+      <publishTime>04/27/2018 18:39:08</publishTime>
+    </File>
+    <File Include="Views/Admin/Chitietsanpham.cshtml">
+      <publishTime>04/23/2018 13:07:54</publishTime>
+    </File>
+    <File Include="Views/Admin/DONHANG.cshtml">
+      <publishTime>05/02/2018 11:29:59</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>05/02/2018 11:40:21</publishTime>
+    </File>
+    <File Include="Views/Admin/KHACHHANG.cshtml">
+      <publishTime>05/02/2018 11:32:01</publishTime>
+    </File>
+    <File Include="Views/Admin/LOAI.cshtml">
+      <publishTime>05/02/2018 11:25:40</publishTime>
+    </File>
+    <File Include="Views/Admin/Login.cshtml">
+      <publishTime>04/26/2018 11:36:03</publishTime>
+    </File>
+    <File Include="Views/Admin/NSX.cshtml">
+      <publishTime>05/02/2018 11:27:51</publishTime>
+    </File>
+    <File Include="Views/Admin/SanPham.cshtml">
+      <publishTime>05/02/2018 11:21:04</publishTime>
+    </File>
+    <File Include="Views/Admin/Suasanpham.cshtml">
+      <publishTime>05/01/2018 07:07:22</publishTime>
+    </File>
+    <File Include="Views/Admin/ThemmoiSanpham.cshtml">
+      <publishTime>04/26/2018 21:51:37</publishTime>
+    </File>
+    <File Include="Views/Admin/Xoasanpham.cshtml">
+      <publishTime>04/27/2018 01:49:03</publishTime>
+    </File>
+    <File Include="Views/Giohang/DatHang.cshtml">
+      <publishTime>05/23/2020 16:06:14</publishTime>
+    </File>
+    <File Include="Views/Giohang/GioHang.cshtml">
+      <publishTime>11/08/2020 07:19:21</publishTime>
+    </File>
+    <File Include="Views/Giohang/GiohangPartial.cshtml">
+      <publishTime>04/23/2018 13:07:55</publishTime>
+    </File>
+    <File Include="Views/Giohang/Xacnhandonhang.cshtml">
+      <publishTime>11/07/2020 23:09:49</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>06/09/2020 07:59:21</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>04/23/2018 13:07:55</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/23/2018 13:07:56</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Contact.cshtml">
+      <publishTime>05/23/2020 17:10:26</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Details.cshtml">
+      <publishTime>11/08/2020 18:51:27</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Health.cshtml">
+      <publishTime>05/23/2020 15:53:46</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Health2.cshtml">
+      <publishTime>05/23/2020 15:54:54</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Health3.cshtml">
+      <publishTime>05/23/2020 15:54:51</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Index.cshtml">
+      <publishTime>11/08/2020 20:03:28</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Introduce.cshtml">
+      <publishTime>06/02/2020 21:51:34</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Loai.cshtml">
+      <publishTime>11/08/2020 20:29:14</publishTime>
+    </File>
+    <File Include="Views/LHTStore/NhaSanxuat.cshtml">
+      <publishTime>11/08/2020 20:29:36</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Nutrition.cshtml">
+      <publishTime>05/23/2020 15:53:02</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Nutrition2.cshtml">
+      <publishTime>05/23/2020 16:08:12</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Order.cshtml">
+      <publishTime>04/23/2018 13:07:57</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Sent.cshtml">
+      <publishTime>04/29/2018 03:29:28</publishTime>
+    </File>
+    <File Include="Views/LHTStore/SPTheoLoai.cshtml">
+      <publishTime>11/08/2020 20:09:54</publishTime>
+    </File>
+    <File Include="Views/LHTStore/SPTheoNSX.cshtml">
+      <publishTime>11/08/2020 20:11:16</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Workout.cshtml">
+      <publishTime>05/23/2020 15:50:29</publishTime>
+    </File>
+    <File Include="Views/LHTStore/Workout2.cshtml">
+      <publishTime>05/23/2020 16:07:31</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>04/23/2018 13:07:58</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>04/23/2018 13:07:58</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>04/23/2018 13:07:59</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>04/23/2018 13:07:59</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>04/23/2018 13:07:59</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>04/23/2018 13:07:59</publishTime>
+    </File>
+    <File Include="Views/NguoiDung/DangKy.cshtml">
+      <publishTime>04/23/2018 13:07:59</publishTime>
+    </File>
+    <File Include="Views/NguoiDung/DanhNhap.cshtml">
+      <publishTime>04/26/2018 14:42:28</publishTime>
+    </File>
+    <File Include="Views/Paypal/FailureView.cshtml">
+      <publishTime>11/08/2020 06:40:00</publishTime>
+    </File>
+    <File Include="Views/Paypal/SuccessView.cshtml">
+      <publishTime>11/08/2020 06:48:12</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/23/2018 13:08:00</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>04/23/2018 13:08:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/23/2018 13:08:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPageAdmin.cshtml">
+      <publishTime>05/23/2020 15:15:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutUser.cshtml">
+      <publishTime>05/23/2020 15:15:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>04/23/2018 13:08:00</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/26/2018 11:13:04</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/23/2018 13:08:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/09/2020 06:21:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

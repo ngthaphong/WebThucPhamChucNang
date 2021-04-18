@@ -1,0 +1,276 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Workout</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Palatino Linotype", sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <style>
+        #t1:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        }
+    </style>
+    <style>
+        #ph:hover {
+            font-size: 16px;
+        }
+    </style>
+    <style>
+        #lht1:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+            margin: 3%;
+            transform: scale(2);
+        }
+    </style>
+
+    <style>
+        #lht3:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+            margin: 3%;
+            transform: rotate(2turn);
+        }
+    </style>
+    <style>
+        .pagination {
+            display: inline-block;
+        }
+
+            .pagination a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+                .pagination a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                    border-radius: 5px;
+                }
+
+                .pagination a:hover:not(.active) {
+                    background-color: #ddd;
+                    border-radius: 5px;
+                }
+    </style>
+    <script>
+function scrollWin() {
+    window.scrollTo(0, 800);
+}
+    </script>
+    <link href="~/Content/shop-homepage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body onload="scrollWin()">
+
+
+    @Html.Action("GiohangPartial", "Giohang")
+
+
+    <!-- Navbar -->
+    <div class="w3-top " style="font-family:Palatino Linotype ;margin-top:15px;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <div class="w3-bar  w3-card">
+            <t class="w3-bar-item  w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></t>
+            <div id="phongto">
+                <a href="@Url.Action("Index","LHTStore")" class="w3-bar-item  w3-padding-large" style="font-size:1.4em; color:#ffffff">☼LHT</a>
+                <a href="@Url.Action("Introduce","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Introduce</a>
+                <a href="@Url.Action("Order","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Order</a>
+                <a href="@Url.Action("Contact","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Contact</a>
+                <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Registration</a>
+                <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Login</a>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar on small screens -->
+
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top " style="margin-top:59px;font-family:Palatino Linotype;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <t id="ph" href="@Url.Action("Introduce","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Introduce</t>
+        <t id="ph" href="@Url.Action("Order","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Order</t>
+        <t id="ph" href="@Url.Action("Contact","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Contact</t>
+        <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Registration</a>
+        <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large " style="color:#ffffff">Login</a>
+    </div>
+
+
+
+    <div class="w3-image" data-ride="carousel">
+
+        <div class="carousel slide ">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img class="w3-image  " img src="~/images/zzzz2.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w3-image  " img src="~/images/zzzz3.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w3-image  " img src="~/images/zzzz.png" alt="">
+                </div>
+
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            <div class="w3-padding w3-display-middle  w3-text-white w3-hide-small   w3-hide-medium  w3-xxxlarge " style="font-family:Palatino Linotype;background-color:#000000;width:600px;height:110px;opacity: 0.5;line-height:50px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important">Investing in Health is<p>Never Wrong</p></div>
+            <div class="w3-padding w3-display-middle  w3-text-white w3-hide-small  w3-hide-large  w3-xxlarge " style="font-family:Palatino Linotype;background-color:#000000;width:450px;height:40px;opacity: 0.5;line-height:20px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap">The first wealth is Health</p></div>
+            <div class="w3-padding w3-display-middle  w3-text-white   w3-hide-large w3-hide-medium  w3-xxxsmall " style="font-family:Palatino Linotype;background-color:#000000;width:200px;height:10px;opacity: 0.5;line-height:10%;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap">The first wealth is Health</p></div>
+
+
+        </div>
+    </div>
+    <a href="@Url.Action("Health","LHTStore")">
+        <span class="container2 ">
+            <img id="t1" class="w3-image  " img src="~/images/z2.png" style="max-width:32%;max-height:33% ;margin:0.2%;border:0">
+            <div class="centered w3-xxlarge w3-hide-small" style="background-color:#000000;width:170px;height:50px;opacity: 0.75;line-height:50px;color:#ffffff">Health</div>
+            <div class="centered w3-hide-large w3-hide-medium  w3-xxsmall" style="background-color:#000000;width:60px;height:15px;opacity: 0.75;line-height:15px;color:#ffffff">Health</div>
+        </span>
+    </a>
+
+    <a href="@Url.Action("Nutrition","LHTStore")">
+        <span class="container2">
+            <img id="t1" class="w3-image  " img src="~/images/z3.png" style="max-width:32%;max-height:33%; margin:0.2%;border:0">
+            <div class="centered w3-xxlarge w3-hide-small" style="background-color:#000000;width:170px;height:50px;opacity: 0.75;line-height:50px;color:#ffffff">Nutrition</div>
+            <div class="centered w3-hide-large w3-hide-medium  w3-xxsmall" style="background-color:#000000;width:60px;height:15px;opacity: 0.75;line-height:15px;color:#ffffff">Nutrition</div>
+        </span>
+    </a>
+    <a href="@Url.Action("Workout","LHTStore")">
+        <span class="container2">
+            <img id="t1" class="w3-image " img src="~/images/z1.png" style="max-width:32%;max-height:33%; margin:0.2%;border:0">
+            <div class="centered w3-xxlarge w3-hide-small" style="background-color:#000000;width:170px;height:50px;opacity: 0.75;line-height:50px;color:#ffffff">Workout</div>
+            <div class="centered w3-hide-large w3-hide-medium  w3-xxsmall" style="background-color:#000000;width:60px;height:15px;opacity: 0.75;line-height:15px;color:#ffffff">Workout</div>
+        </span>
+    </a>
+
+
+    <hr>
+
+
+    <div class="row" style="margin-left:2%">
+        <div class="col-md-2">
+            <img id="lht3" style="width:100%; transition:all 0.8s" src="~/images2/unnamed.jpg" />
+
+
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge" style="background-color:#000000;opacity: 0.7;color:#ffffff">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+                <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            </footer>
+        </div>
+
+        <div class="col-md-10 ">
+            <h1 style="Text-align:Center">Workout</h1>
+            <p style="padding-top:20px; margin-bottom:20px; border-bottom: 2px solid black ;width:96%;margin-left:2% "></p>
+
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/UST0q-PJd0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/kn0MBvIsAw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/N4hxXbrmVdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/VV3nnGj13pU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/iVwTZRVbQKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="32%" height="250px" src="https://www.youtube.com/embed/SG8R6NuY6Yg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           
+
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="@Url.Action("Workout", "LHTStore")" class="active">1</a>
+                <a href="@Url.Action("Workout2", "LHTStore")">2</a>
+                <a href="#">&raquo;</a>
+            </div>
+        
+        </div>
+    </div>
+
+
+    <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+             var x = document.getElementById("navDemo");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else {
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+
+         // When the user clicks anywhere outside of the modal, close it
+         var modal = document.getElementById('ticketModal');
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+    </script>
+
+
+    <!-- /.container -->
+    <div class="container">
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy;  Doãn Xuân Thanh - 2020 - https://www.facebook.com/dzoanthanh</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+
+    <div style="width:100%;height:60%;background-color:#2f2d2d">
+
+        <img style="width:94%;height:auto;margin:3% 3%" src="~/images/wheyCorHuongViTuyetVoi_1.jpg" />
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="~/Scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+﻿
+@using WebApplication3.Models
+@model List<Giohang>
+
+
+@{
+    ViewBag.Title = "DatHang";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Palatino Linotype", sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <style>
+        #t1:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        }
+
+        #xoay:hover {
+            transform: rotate(2.5turn);
+        }
+    </style>
+    <script>
+function scrollWin() {
+    window.scrollTo(0, 500);
+}
+    </script>
+    <link href="~/Content/shop-homepage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body onload="scrollWin()">
+
+
+    @Html.Action("GiohangPartial", "Giohang")
+
+    <div class="w3-top " style="font-family:Palatino Linotype ;margin-top:15px;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <div class="w3-bar  w3-card">
+            <t class="w3-bar-item  w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></t>
+            <div id="phongto">
+                <a href="@Url.Action("Index","LHTStore")" class="w3-bar-item  w3-padding-large" style="font-size:1.4em; color:#ffffff">☼LHT</a>
+                <a href="@Url.Action("Introduce","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Introduce</a>
+                <a href="@Url.Action("Order","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Order</a>
+                <a href="@Url.Action("Contact","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Contact</a>
+                <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Registration</a>
+                <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Login</a>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar on small screens -->
+
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top " style="margin-top:59px;font-family:Palatino Linotype;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <t id="ph" href="@Url.Action("Introduce","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Introduce</t>
+        <t id="ph" href="@Url.Action("Order","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Order</t>
+        <t id="ph" href="@Url.Action("Contact","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Contact</t>
+        <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Registration</a>
+        <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large " style="color:#ffffff">Login</a>
+    </div>
+
+
+
+    <div class="w3-image" data-ride="carousel">
+
+        <div class="carousel slide ">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img class="w3-image  " img src="~/images/zzzz2.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w3-image  " img src="~/images/zzzz3.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w3-image  " img src="~/images/zzzz.png" alt="">
+                </div>
+
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            <div class="w3-padding w3-display-middle  w3-text-white w3-hide-small   w3-hide-medium  w3-xxxlarge " style="font-family:Palatino Linotype;background-color:#000000;width:600px;height:110px;opacity: 0.5;line-height:50px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important">Investing in Health is<p>Never Wrong</p></div>
+            <div class="w3-padding w3-display-middle  w3-text-white w3-hide-small  w3-hide-large  w3-xxlarge " style="font-family:Palatino Linotype;background-color:#000000;width:450px;height:40px;opacity: 0.5;line-height:20px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap">The first wealth is Health</p></div>
+            <div class="w3-padding w3-display-middle  w3-text-white   w3-hide-large w3-hide-medium  w3-xxxsmall " style="font-family:Palatino Linotype;background-color:#000000;width:200px;height:10px;opacity: 0.5;line-height:10%;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap">The first wealth is Health</p></div>
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <img id="xoay" src="~/images/shopping_cart_clip_art_16696.jpg" style="width:100%;z-index:11;transition : all 1s;height:auto;margin-left:5%;margin-top: 10%;border-radius: 50%;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7)" />
+            <div style="z-index:5;width:100%;height:350px;margin-left:5%;margin-top: -10%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7)">
+                <span title="Xóa Giỏ Hàng" style="font-size:30px;margin-left:85%">@Html.ActionLink("X", "XoaTatcaGiohang")</span>
+
+                <h3 style="text-align:center;margin-top:-5%">HÓA ĐƠN</h3>
+
+                <p style="padding-top:10px; margin-bottom:20px; border-bottom: 2px solid black ;width:90%;margin-left:5% "></p>
+                <h4 style="padding-left:3px">-TỔNG SỐ LƯỢNG :<p style="text-align:center;text-decoration:underline ;margin:5%;color:#FF1493">@ViewBag.Tongsoluong SP</td></p></h4>
+                <hr />
+                <h4 style="padding-left:3px">-THÀNH TIỀN :<p style="text-align:center;text-decoration:underline ;margin:5%;color:#26b038">@String.Format("{0:0,0}", ViewBag.Tongtien) VNĐ</td></p></h4>
+                <br />
+                <hr />
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+
+
+
+            <h3 style="Text-align:Center;margin-top:25%" onfocus="">THÔNG TIN ĐẶT HÀNG</h3>
+            <br />
+            <hr />
+            @{
+                KHACHHANG kh = (KHACHHANG)Session["Taikhoan"];
+            }
+            <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);padding:10%">
+                <table align="center">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.ValidationSummary(true)
+                        <tr style="height:40px">
+                            <td> Họ tên khách hàng:</td>
+                            <td style="font-weight:bold ;text-align:right">  @kh.HoTen </td>
+
+                        </tr>
+                        <tr style="height:40px">
+                            <td> Địa chỉ:</td>
+                            <td style="font-weight:bold ;text-align:right">  @kh.DiachiKH </td>
+                        </tr>
+                        <tr style="height:40px">
+                            <td> Địện thoại:</td>
+                            <td style="font-weight:bold ;text-align:right">  @kh.DienthoaiKH </td>
+                        </tr>
+                        <tr style="height:40px">
+                            <td> Ngày đặt:</td>
+                            <td style="font-weight:bold ;text-align:right"> @DateTime.Now.ToShortDateString() </td>
+                        </tr>
+                        <tr style="height:40px">
+                            <td> Ngày giao hàng:</td>
+                            <td style="font-weight:bold ">
+                                <input type="date" name="Ngaygiao" style="text-align:right" />
+                            </td>
+                        </tr>
+                        <tr style="height:60px">
+
+                            <td colspan="2">
+                                <hr />
+
+                                <input style="background-color:#51bd5f; width:80%;height:40px;margin-left:10%" type="Submit" value="ĐỒNG Ý ĐẶT HÀNG" />
+
+
+
+
+
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+
+
+        </div>
+        <div class="col-md-7">
+
+
+
+            <h3 style="Text-align:Center;margin-top:10%" onfocus="">CHI TIẾT GIỎ HÀNG</h3>
+            <p style="padding-top:10px; margin-bottom:10px; border-bottom: 2px solid black ;width:96%;margin-left:2%;text-align:right ">@Html.ActionLink("TRỞ VỀ GIỎ HÀNG", "Giohang", "GioHang")</p>
+
+
+
+            <table align="center" border="0">
+                <tr style="text-align:center; font-weight:bold;border-bottom: 2px solid black;width:96%;margin-left:2%;height:35px">
+                    <td style="width:15%"> Ảnh bìa </td>
+                    <td style="width:5%">Mã SP</td>
+                    <td style="width:20%"> Tên sản phẩm </td>
+                    <td style="width:10%"> Số lượng </td>
+                    <td style="width:15%"> Đơn giá  </td>
+                    <td style="width:15%"> Tổng tiền </td>
+
+                </tr>
+
+                @foreach (var item in Model)
+                {
+
+                    <tr style="text-align:center; border-bottom: 2px solid black;width:96%;margin-left:2%">
+                        <td><img style="width:100%;height:auto%" src="~/images/@item.sAnhbia"></td>
+                        <td> @item.iMaSP </td>
+                        <td style="font-size:16px"> @item.sTenSanPham</td>
+
+
+                        <td>
+                            <input style="width:80%" type="number" min="1" name="txtSoluong " value="@item.iSoluong" />
+                        </td>
+                        <td style="text-decoration:underline">@String.Format("{0:0,0}", item.dDongia) </td>
+                        <td style="text-decoration:underline">@String.Format("{0:0,0}", item.dThanhtien) </td>
+
+
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Doãn Xuân Thanh - 2020 - https://www.facebook.com/dzoanthanh</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+
+    <div style="width:100%;height:60%;background-color:#2f2d2d">
+
+        <img style="width:94%;height:auto;margin:3% 3%" src="~/images/wheyCorHuongViTuyetVoi_1.jpg" />
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="~/Scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

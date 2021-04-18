@@ -1,0 +1,35 @@
+﻿body {
+            font-family: "Palatino Linotype", sans-serif;
+}
+
+.mySlides {
+            display: none;
+}
+#t1{
+     max-width:32%;max-height:33% ;margin:0.2%;border:0;
+}
+#t1:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+           
+}
+#ph:hover {
+            font-size:16px;
+}
+#na1{
+    font-family:Palatino Linotype ;margin-top:15px;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em;
+}
+#chu1{
+    font-family:Palatino Linotype;background-color:#000000;width:600px;height:110px;opacity: 0.5;line-height:50px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;
+}
+#chu2{
+    font-family:Palatino Linotype;background-color:#000000;width:450px;height:40px;opacity: 0.5;line-height:20px;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap;
+}
+#chu3{
+    font-family:Palatino Linotype;background-color:#000000;width:200px;height:10px;opacity: 0.5;line-height:10%;color:#ffffff;z-index:20;text-align:center;top:55%;left: 50%;important;white-space:nowrap;
+}
+#chu4{
+   background-color:#000000;width:170px;height:50px;opacity: 0.75;line-height:50px;color:#ffffff;
+}
+#chu5{
+    background-color:#000000;width:60px;height:15px;opacity: 0.75;line-height:15px;color:#ffffff;
+}

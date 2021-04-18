@@ -1,0 +1,32 @@
+﻿<h2>Trang đọc tin tức RSS</h2>
+@using (Html.BeginForm())
+{
+    <input type="URL" name="url" placeholder="Nhập địa chỉ đọc RSS"
+           class="form-control" value="@ViewBag.URL" style="min-width:100%" />
+    <br />
+    <input type="submit" value="Đọc tin RSS" class="btn btn-danger" />
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>TenSanPham</th>
+            <th>Link</th>
+            <th>Mota</th>
+            <th>Ngaycapnhat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.RSSFeed != null)
+        {
+            foreach(var item in ViewBag.RSSFeed)
+            {
+                <tr>
+                    <td>@item.TenSanPham</td>
+                    <td><a href="@item.Link">@item.Link</a></td>
+                    <td>@item.Mota</td>
+                    <td>@item.Ngaycapnhat</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,368 @@
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\ApplicationInsights.config
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\csc.exe
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\vbc.exe
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\VBCSCompiler.exe
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.pdb
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Antlr3.Runtime.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.SqlServer.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Web.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Newtonsoft.Json.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Owin.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.Mvc.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Helpers.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Mvc.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Optimization.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Razor.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Razor.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebGrease.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Web.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.Mvc.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Helpers.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Mvc.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Optimization.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Razor.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Razor.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Antlr3.Runtime.pdb
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Newtonsoft.Json.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.SqlServer.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csproj.CopyComplete
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.pdb
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Facebook.dll
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Facebook.xml
+C:\Users\Windows 10\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\ApplicationInsights.config
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\csc.exe
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\vbc.exe
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebApplication3.pdb
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Facebook.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Web.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Owin.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.Mvc.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Helpers.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Mvc.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Optimization.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Razor.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\WebGrease.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Facebook.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.Web.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\PagedList.Mvc.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Helpers.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Mvc.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Optimization.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.Razor.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.csproj.CopyComplete
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.dll
+C:\Users\Asus\Desktop\WebApplication3 - Copy3\WebApplication3\obj\Release\WebApplication3.pdb
+D:\WSTapHoa\WebApplication3\bin\ApplicationInsights.config
+D:\WSTapHoa\WebApplication3\bin\roslyn\csc.exe
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WSTapHoa\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+D:\WSTapHoa\WebApplication3\bin\roslyn\vbc.exe
+D:\WSTapHoa\WebApplication3\bin\roslyn\VBCSCompiler.exe
+D:\WSTapHoa\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+D:\WSTapHoa\WebApplication3\bin\WebApplication3.dll.config
+D:\WSTapHoa\WebApplication3\bin\WebApplication3.dll
+D:\WSTapHoa\WebApplication3\bin\WebApplication3.pdb
+D:\WSTapHoa\WebApplication3\bin\Antlr3.Runtime.dll
+D:\WSTapHoa\WebApplication3\bin\EntityFramework.dll
+D:\WSTapHoa\WebApplication3\bin\EntityFramework.SqlServer.dll
+D:\WSTapHoa\WebApplication3\bin\Facebook.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.Web.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Google.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\WSTapHoa\WebApplication3\bin\Newtonsoft.Json.dll
+D:\WSTapHoa\WebApplication3\bin\Owin.dll
+D:\WSTapHoa\WebApplication3\bin\PagedList.dll
+D:\WSTapHoa\WebApplication3\bin\PagedList.Mvc.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.Helpers.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.Mvc.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.Optimization.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.Razor.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.dll
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Razor.dll
+D:\WSTapHoa\WebApplication3\bin\WebGrease.dll
+D:\WSTapHoa\WebApplication3\bin\EntityFramework.xml
+D:\WSTapHoa\WebApplication3\bin\EntityFramework.SqlServer.xml
+D:\WSTapHoa\WebApplication3\bin\Facebook.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.Web.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WSTapHoa\WebApplication3\bin\PagedList.xml
+D:\WSTapHoa\WebApplication3\bin\PagedList.Mvc.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.Helpers.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.Mvc.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.Optimization.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.Razor.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Razor.xml
+D:\WSTapHoa\WebApplication3\bin\Antlr3.Runtime.pdb
+D:\WSTapHoa\WebApplication3\bin\Newtonsoft.Json.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csprojAssemblyReference.cache
+D:\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csproj.CoreCompileInputs.cache
+D:\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csproj.CopyComplete
+D:\WSTapHoa\WebApplication3\obj\Release\WebApplication3.dll
+D:\WSTapHoa\WebApplication3\obj\Release\WebApplication3.pdb
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\ApplicationInsights.config
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\csc.exe
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\vbc.exe
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\VBCSCompiler.exe
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\WebApplication3.dll.config
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\WebApplication3.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\WebApplication3.pdb
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Antlr3.Runtime.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\EntityFramework.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\EntityFramework.SqlServer.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Facebook.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.Web.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Google.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Web.Infrastructure.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Newtonsoft.Json.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Owin.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PagedList.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PagedList.Mvc.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PayPal.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Net.Http.Formatting.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Helpers.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Http.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Http.WebHost.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Mvc.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Optimization.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Razor.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Deployment.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Razor.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\WebGrease.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\EntityFramework.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\EntityFramework.SqlServer.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Facebook.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.Web.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Newtonsoft.Json.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PagedList.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PagedList.Mvc.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\PayPal.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Net.Http.Formatting.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Http.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Http.WebHost.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Helpers.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Mvc.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Optimization.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.Razor.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Deployment.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\System.Web.WebPages.Razor.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Antlr3.Runtime.pdb
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csprojAssemblyReference.cache
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csproj.CoreCompileInputs.cache
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\obj\Release\WebApplication3.csproj.CopyComplete
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\obj\Release\WebApplication3.dll
+D:\Tailieu\HeThongTMDT\thucphamchucnang\taphoa\WSTapHoa\WebApplication3\obj\Release\WebApplication3.pdb

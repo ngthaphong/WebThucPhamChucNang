@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1wS39H/YWkeZbdz8FLoQ1gAAAAACAAAAAAAQZgAAAAEAACAAAACskHwU43buSVHPanXDkBL0cZs7rwWlWLcX2KgneErA/AAAAAAOgAAAAAIAACAAAAAWVxxk+0Xz0nkjwHyWqA0rukYruhS+LBf80t6dC5oK+CAAAABcwXz0pg8IVHBZLHGVb7YEQ4hIKowtiyO2zrTB/nmXO0AAAAAeYHzajDWZ6PvCznFmmaAQO7bIpPNByTyB0QfL1+s99VvfsLmSaMIp224PyMrLVogyTBJHZ6riPPD83Hrbg0Lg</EncryptedPassword>
+    <_PublishTargetUrl>ftp://nhthngan@gymmersfood.somee.com/www.gymmersfood.somee.com/</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

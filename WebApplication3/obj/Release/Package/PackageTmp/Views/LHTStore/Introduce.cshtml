@@ -1,0 +1,104 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Introduce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Palatino Linotype", sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <style>
+        #t1:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        }
+    </style>
+    <style>
+        #ph:hover {
+            font-size: 16px;
+        }
+    </style>
+    <script>
+function scrollWin() {
+    window.scrollTo(0, 800);
+}
+    </script>
+
+    <link href="~/Content/shop-homepage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="w3-top " style="font-family:Palatino Linotype ;margin-top:15px;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <div class="w3-bar  w3-card">
+            <t class="w3-bar-item  w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></t>
+            <div id="phongto">
+                <a href="@Url.Action("Index","LHTStore")" class="w3-bar-item  w3-padding-large" style="font-size:1.4em; color:#ffffff">☼LHT</a>
+                <a href="@Url.Action("Introduce","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Introduce</a>
+                <a href="@Url.Action("Order","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Order</a>
+                <a href="@Url.Action("Contact","LHTStore")" id="ph" class="w3-bar-item  w3-padding-large w3-hide-small" style="color:#ffffff">Contact</a>
+                <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Registration</a>
+                <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large w3-hide-small w3-right" style="color:#ffffff">Login</a>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar on small screens -->
+
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top " style="margin-top:59px;font-family:Palatino Linotype;opacity: 0.6;color:#ffffff;background-color:#000000;text-decoration:none; line-height:1.3em">
+        <t id="ph" href="@Url.Action("Introduce","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Introduce</t>
+        <t id="ph" href="@Url.Action("Order","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Order</t>
+        <t id="ph" href="@Url.Action("Contact","LHTStore")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Contact</t>
+        <a id="ph" href="@Url.Action("DangKy", "NguoiDung")" class="w3-bar-item  w3-padding-large" style="color:#ffffff">Registration</a>
+        <a id="ph" href="@Url.Action("DanhNhap", "NguoiDung")" class="w3-bar-item  w3-padding-large " style="color:#ffffff">Login</a>
+    </div>
+
+
+
+
+    <div class="w3-display-topleft w3-hide-small w3-hide-medium" style="margin-top:11%;margin-left:5.5%">
+        <u>
+            <h3 style="font-family:'Palatino Linotype';margin-left:10%;width:100%">Đồ án lập trình WEBSITE ASP.NET MVC5</h3>
+            <br />
+            <p><h4 style="font-family:'Palatino Linotype';margin-left:5%;margin-top:4%">Vũ Nguyễn Thái Bình</h4></p>
+            <p><h4 style="font-family:'Palatino Linotype';margin-left:5%">Nguyễn Tiến Diện</h4></p>
+            <p><h4 style="font-family:'Palatino Linotype';margin-left:5%;margin-bottom">Nguyễn Thanh Phong</h4></p>
+        </u>
+    </div>
+
+
+    <img style="width:100%;z-index:5" src="~/images2/1.png" />
+    <div class="right" style="text-align:center">
+
+        <video width="1000" controls autoplay>
+            @*<source src="~/images2/video-1521263916.mp4" type="video/mp4" />*@
+            @*<source src="~/images2/2.mp4" type="video/mp4" />*@
+            <source  src="~/images2/3.mp4" type="video/mp4" />
+                <video controls="controls">
+            </video>
+        </video>
+    </div>
+   
+
+
+    <h2 style="font-family:'Palatino Linotype';margin-left:8%">H U T E C H .</h2>
+    <hr style="margin-bottom:5%" />
+
+</body>
+</html>
